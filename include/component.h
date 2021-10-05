@@ -20,5 +20,7 @@ public:
   std::shared_ptr<component> clone() const noexcept;
 
   actor &get_owner() noexcept { return m_owner; }
+
+  virtual ~component() = default;
 };
 } // namespace spectacle

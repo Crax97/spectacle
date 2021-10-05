@@ -70,5 +70,7 @@ public:
 
     return component->second;
   }
+
+  virtual ~actor() = default;
 };
 } // namespace spectacle

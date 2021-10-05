@@ -18,5 +18,7 @@ public:
 
   // Called when the stage needs to release its resources
   virtual void on_stage_exit() noexcept;
+
+  virtual ~stage() = default;
 };
 } // namespace spectacle
